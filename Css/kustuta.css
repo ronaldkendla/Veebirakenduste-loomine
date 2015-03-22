@@ -1,0 +1,290 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+h2, p {
+	margin: 10px 0;
+ 	font-family: "Open Sans";
+ 	line-height: 20px;
+ 	color: #000000;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	margin-left:200px;
+	float: left;
+	width: 200px;
+	height: 40px;
+	background: url(Logo.PNG);
+}
+/*Main area*/
+.main-area {
+  padding-top: 65px;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -168px;
+}
+/* Help menu */
+.header {
+ 	height: 3.75em;
+ 	width: 100%;
+}
+.help-menu {
+	position: fixed;
+	background-color: #FFFFFF;
+	opacity: 1;
+	height: 53px;
+	z-index: 10;
+	width: 100%;
+
+}.help-menu ul {
+
+	font-family: "Open Sans";
+	float: right;
+	padding-right: 20px;
+}
+
+.help-menu ul li {
+	font-family: "Open Sans";
+	display: inline-block;
+	padding: 10px 20px;
+	
+}
+
+.menu{
+	padding: 0px;
+	line-height: 1.5em; 
+	border-radius: 0.3125em;
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #C0C0C0;
+    /*margin-right: 20px;*/
+    width: 60px;
+    line-height: 30px;
+}
+.menu{
+	font-family: "Open Sans";
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+ 
+.menu:hover{
+	font-family: "Open Sans";
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #D4D4D4;
+}
+
+
+/*BUTTONS*/
+.venue{
+	line-height: 1.5em; 
+	border-radius: 0.3125em;
+    float: right;
+    list-style: none;
+    text-align: center;
+    background-color: #fa8100;
+    margin-right: 130px;
+    width: 160px;
+    line-height: 30px;
+}
+.venue{
+	font-family: "Open Sans";
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+ 
+.venue:hover{
+	font-family: "Open Sans";
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #fa9600;
+}
+.login {
+	color: #000000;
+	float : right;
+	list-style:none;
+	text-align:center;
+	text-decoration: none;
+
+}
+.login:hover{
+	font-family: "Open Sans";
+}
+.signup{
+	color:#000000;
+	margin-top:4px;
+	float:right;
+	text-decoration:none;
+}
+/*.signup:hover{
+	background-color: none;
+	}*/
+
+
+/*Slogan ja landing*/
+
+.landing-background {
+	text-align: center;
+	position: absolute;
+	background: url(wadap2.png);
+	background-size: cover;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    height: 60%; 
+}
+
+
+.landing-area{
+	width:60%;
+	float: left;
+ 	margin: 0 auto;
+ }
+
+.landing-slogan h1 {
+	font-size: 2.5em;
+    font-weight: 400;
+    line-height: 1em;
+    margin: 20px 0 15px;
+    text-shadow: 0 0 1px;
+	font-family: "Open Sans";
+	padding: 60px 10px;
+	color: #FFFFFF;
+	padding-left: 70px;
+}
+
+.landing-slogan h2 {
+    line-height: 1.2em;
+    font-weight: 100;
+    text-shadow: 0 0 1px;
+	font-family: "Open Sans";
+	font-size:200%;
+	color: #FFFFFF;
+	padding-left: 50px;
+}
+
+/*Get Started */
+
+.landing-button {
+	padding: 0 2%;
+  	box-sizing: border-box;
+  	display: inline-block;
+  	float: left;
+	clear: both;
+	margin-top: 20px;
+	width: 50%;
+	margin-left: 200px;
+}
+
+/*Get Started Button*/
+
+.button{
+	text-decoration: none;
+	width: 154px;
+ 	height: 30px;
+ 	transition: all 200ms ease;
+ 	border-radius: 4px;
+ 	border: none;
+ 	font-family: "Open Sans";
+ 	font-size: 130%;
+  	background-color: #fa8100;
+ 	cursor: pointer;
+ 	padding: 20px 10px 20px 10px;
+  	display: inline-block;
+  	letter-spacing: 1px;
+  	font-weight: 400;
+  	outline: none;
+  	color:#FFFFFF;
+  	text-transform:uppercase;
+
+}
+.button:hover{
+	font-weight:600;
+	text-transform: uppercase;
+	font-family: "Open Sans";
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #fa9600;
+}
+
+/*BENEFITS*/
+.landing-benefits {
+	margin-top: -247px;
+	margin-right:10%;
+	margin-left:10%;
+	display: block;
+  	background: white;
+  	text-align: center;
+  	border: 1px solid rgba(0,0,0,0.09);
+}
+.column-2{
+	font-family: "Open Sans";
+	text-decoration: none;
+	width: 32%;
+ 	height: 200px;
+ 	border-radius: 4px;
+ 	border-left: 2px solid rgba(0,0,0,0.09);
+	padding: 0 2%;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ 	display: block;
+ 	float: left;
+ 	border-right: 2px solid rgba(0,0,0,0.09);
+
+}
+.column-3{
+	font-family: "Open Sans";
+	text-decoration: none;
+	width: 32%;
+ 	height: 200px;
+ 	border-radius: 4px;
+ 	border-left: 2px solid rgba(0,0,0,0.09);
+	padding: 0 2%;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ 	display: block;
+ 	float: left;
+
+}
+.column-2:hover{
+	color:#000000;
+}
+
+.center-benefits {
+  border-left: 1px solid rgba(0,0,0,0.09);
+  border-right: 1px solid rgba(0,0,0,0.09);
+}
+
+.fast-icon{
+	margin-left:32%;
+	width: 127px;
+	height: 127px;
+	background: url(fast.png);
+}
+.secure-icon{
+	margin-left:32%;
+	width: 127px;
+	height: 120px;
+	background: url(secure.png);
+}
+.convenient-icon{
+	margin-left:32%;
+	width: 127px;
+	height: 120px;
+	background: url(convenient.png);
+}
+/*KUSTUTA*/
+.kustuta{
+	margin-top:300px;
+}

@@ -1,0 +1,40 @@
+body{
+	background: url(signup_background.png);
+}
+fieldset {
+	height: 300px;
+  padding: 1em;
+  font:80%/1 "Open Sans";
+  }
+#Sign-Up{	
+	font-family: "Open Sans";
+	margin-top:150px;
+	margin-bottom:150px;
+	margin-right:150px;
+	margin-left:450px;
+	padding:9px 35px; 
+}
+
+
+/*BUTTON*/
+#button{
+	border:none;
+	color: #FFFFFF;
+	font-family: "Open Sans";
+	background-color: #00c6ff;
+	font-size:12px;
+	width: 100px;
+	height: 40px;
+	border-bottom: 1px solid #00a2d1;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+#button:hover{
+	font-weight:600;
+	text-transform: uppercase;
+	font-family: "Open Sans";
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #00a2d1;
+}
