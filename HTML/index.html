@@ -39,18 +39,26 @@
    }(document, 'script', 'facebook-jssdk'));
 </script>  -->
 
+<div id="plakatid">
+  <a href = "register.php"><p id = "plakat1">Lisa uus kuulutus</p></a>
+</div>
 
 <header class="header">
     <div class="help-menu">
         <div class ="logo"></div> <!--Logo proov-->
     	<ul>
         	<li><a href="#" class ="menu">Menu</a></li>
-		    <li><a href="#" class="venue">Post a new venue</a></li>
+		    <li><a href="newvenue.html" class="venue">Post a new venue</a></li>
 		</ul>
         <ul>
             <!-- <div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false"></div> -->
+        <li><p id = "login">Logi sisse: <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+          </fb:login-button></p></li>
+       <li><a id="logout" onclick="FB.logout(function() { document.location.reload(); });"></a>
+          <script src="autentimine.js"></script></li>
+      
             <li><a href="login.html" class = "login">Log in</a></li>
-            <li><a href="signup.html" class = "signup">Sign up</a></li>  
+            <li><a href="register.php" class = "signup">Sign up</a></li>  
         </ul>
 	</div>
 </header>
@@ -63,7 +71,7 @@
             </div>
         
             <div class = "landing-button">
-                <a class="button" href="signup.html">Get Started</a>
+                <a class="button" href="register.php">Get Started</a>
             </div>
         </div>
         
